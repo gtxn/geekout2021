@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 header">
+                <h1>Information & Schedules</h1>
+            </div>
+        </div>
+        <div class="row">
+            <p class="col-4"><strong>Sugar Level: </strong> </p>
+
+            <div class="col-8 input-group mb-3 ">
+                <input type="text" id='sugarLvl' class="form-control" placeholder="Sugar Level" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+        <div class="row">
+            <p class="col-4"><strong>Blood Pressure: </strong> </p>
+
+            <div class="col-8 input-group mb-3 ">
+                <input type="text" id='sugarLvl' class="form-control" placeholder="Blood pressure" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-7"></div>
+            <div class="col-5 text-center">
+                <button class='submitBtn'>Submit</button>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="medsBox">
+                <div class="medSect">
+                    <h3 class='red banner'>Next Medicine Time: <span style='font-weight: 600; color: white'>8am</span>
+                    </h3>
+                    <ul class="todo">
+                        <li>Take 1 tablet Metformin</li>
+                        <li>Take 1 tablet Hydrocodone</li>
+                        <li>Take 2 tablets Lisinopril</li>
+                        <li>Take 1 tablet Azithromycin</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="nav nav-pills nav-justified fixed-bottom">
+        <a class="nav-link active" href="./home.html">Home</a>
+        <a class="nav-link" href="./planner.html">Planner</a>
+        <a class="nav-link" href="./scanner.html">Scanner</a>
+        <a class="nav-link" href="./account.html">Account</a>
+    </nav>
+
+    <script src='../scripts/home.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

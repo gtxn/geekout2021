@@ -1,0 +1,113 @@
+:root {
+    --buttonCol: #EB4A5A;
+    --bgColor: #B2E8FF;
+    --grayBg : #EDEDED;
+    --blueBg : #FFE6D4;
+}
+
+html,body {
+    background-color: var(--bgColor);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    background-color: var(--bgColor);
+    text-align: center;
+}
+
+.header {
+    padding: 10%;
+}
+
+.container {
+    background-color: var(--bgColor);
+}
+
+.red {
+    background-color: var(--buttonCol);
+}
+
+.banner {
+  padding: 10px;
+}
+
+.medsBox {
+  text-align: center;
+  align-items: center;
+}
+
+.medSect {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: var(--grayBg);
+
+    margin-top: 20px;
+    width:100%;
+
+}
+
+.submitBtn {
+  background-color: var(--buttonCol);
+  padding: 10px 20px 10px 20px;
+  color: white
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    list-style-type: none; /* Remove bullets */
+
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked { 
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+/* schedules page */
+
+.alertBtn {
+    padding: 10px 30px 10px 30px;
+}

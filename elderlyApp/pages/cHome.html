@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../assets/caregiver.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 header">
+                <h1>Schedules</h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+                <button type="button" class="alertBtn" data-toggle="modal" data-target="#exampleModal">
+                    <h3 style='background-color: inherit;'><span>ALERT</span></h3>
+                    <h3 style='background-color: inherit;'>elderly</h3>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style='background-color: inherit;'>
+                                    Confirmed
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Alert sent successfully.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div id="medsBox">
+                    <div class="medSect">
+                        <h3 class='red banner'>Missed Medications <span
+                                style='font-weight: 600; color: white'>8am</span>
+                        </h3>
+                        <ul class="todo">
+                            <li>Take 1 tablet Hydrocodone</li>
+                            <li>Take 1 tablet Azithromycin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div id="medsBox">
+                    <div class="medSect">
+                        <h3 class='red banner'>Next Medicine Time: <span
+                                style='font-weight: 600; color: white'>1pm</span>
+                        </h3>
+                        <ul class="todo">
+                            <li>Take 1 tablet Metformin</li>
+                            <li>Take 1 tablet Hydrocodone</li>
+                            <li>Take 2 tablets Lisinopril</li>
+                            <li>Take 1 tablet Azithromycin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="nav nav-pills nav-justified fixed-bottom">
+        <a class="nav-link active" href="./cHome.html">Home</a>
+        <a class="nav-link" href="./cHistory.html">History</a>
+        <a class="nav-link" href="./cPressure.html">Logs</a>
+        <a class="nav-link" href="./cAccount.html">Account</a>
+    </nav>
+
+    <script src='../scripts/home.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
