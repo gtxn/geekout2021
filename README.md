@@ -1,5 +1,4 @@
-# geekout2021
-medicine management application for seniors
+# geekout2021 - medicine management application for seniors
 
 This was a project coded in a 24h hackathon, so some functionality is missing and 
 this project is only optimised for mobile and the layout for desktop is terrible 😔
